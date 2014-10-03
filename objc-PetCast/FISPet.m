@@ -10,4 +10,14 @@
 
 @implementation FISPet
 
+- (NSString *)makeASound
+{
+    return @"Pet me!";
+}
+
+- (NSString *)eatSomething
+{
+    return @"Nom nom nom.";
+}
+
 @end

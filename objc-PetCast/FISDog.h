@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FISPet.h"
 
-@interface FISDog : NSObject
+@interface FISDog : FISPet
+
+- (NSString *)makeASound;
+- (NSString *)assaultTheMailman;
 
 @end

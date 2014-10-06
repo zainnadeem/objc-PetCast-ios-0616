@@ -26,7 +26,6 @@
     FISPet *petThatCanWoof = (FISPet *)newDog;
     NSLog(@"%@",[petThatCanWoof makeASound]);
     NSLog(@"%@",[petThatCanWoof eatSomething]);
-    NSLog(@"%@",[(FISDog *)petThatCanWoof assaultTheMailman]);
 
     // Override point for customization after application launch.
     return YES;

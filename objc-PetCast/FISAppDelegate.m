@@ -27,6 +27,11 @@
     NSLog(@"%@",[petThatCanWoof makeASound]);
     NSLog(@"%@",[petThatCanWoof eatSomething]);
 
+    FISPet *newerPet = [[FISDog alloc] init];
+    NSLog(@"%@", [newerPet makeASound]);
+    NSLog(@"%@", [newerPet eatSomething]);
+    NSLog(@"%@", [((FISDog *)newerPet) assaultTheMailman]);
+    
     // Override point for customization after application launch.
     return YES;
 }

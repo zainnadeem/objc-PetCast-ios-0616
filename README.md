@@ -21,3 +21,12 @@ After pushing up your solution, try to make your FISPet (that was casted as an F
 Now try to make your FISDog that was casted as an FISPet assault the mailman. What happens? How might you make the method work?
 
 No need to push anything up to github for this section.
+
+##Hint
+
+It is possible to cast in-line by putting parentheses around an object. For instance, if we had a Car object and a Porsche object, and the Porsche object had a property called isTurboCharged. The following would work:
+
+```
+FISCar *newCar = [FISPorsche alloc] init];
+((Porsche *)newCar).isTurboCharged = YES;
+```

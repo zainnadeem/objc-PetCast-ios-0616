@@ -11,6 +11,8 @@
 		319BA7C219DECE940031C31D /* FISDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BA7C119DECE940031C31D /* FISDog.m */; };
 		319BA7C419DED91A0031C31D /* FISPetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BA7C319DED91A0031C31D /* FISPetSpec.m */; };
 		319BA7C619DED9240031C31D /* FISDogSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BA7C519DED9240031C31D /* FISDogSpec.m */; };
+		319BA7C919DEFFC20031C31D /* FISDogSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BA7C719DEFFC20031C31D /* FISDogSpec.m */; };
+		319BA7CA19DEFFC20031C31D /* FISPetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 319BA7C819DEFFC20031C31D /* FISPetSpec.m */; };
 		482D2E8F47AD47979EFF891C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AF81A5289D45EAA2F19EF4 /* main.m */; };
 		5171D40E67259D41884EDCC0 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B627BE81D7997190CF7802 /* libPods-unit_tests.a */; };
 		9AF9063830C34ED0B3E89B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F28609C53504142A3CDCCAD /* Foundation.framework */; };
@@ -36,6 +38,8 @@
 		319BA7C119DECE940031C31D /* FISDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDog.m; sourceTree = "<group>"; };
 		319BA7C319DED91A0031C31D /* FISPetSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPetSpec.m; sourceTree = "<group>"; };
 		319BA7C519DED9240031C31D /* FISDogSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDogSpec.m; sourceTree = "<group>"; };
+		319BA7C719DEFFC20031C31D /* FISDogSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDogSpec.m; sourceTree = "<group>"; };
+		319BA7C819DEFFC20031C31D /* FISPetSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPetSpec.m; sourceTree = "<group>"; };
 		31AF81A5289D45EAA2F19EF4 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		333D26DD4ABC4AE2A85B33E2 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F28609C53504142A3CDCCAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -76,6 +80,8 @@
 			children = (
 				319BA7C319DED91A0031C31D /* FISPetSpec.m */,
 				319BA7C519DED9240031C31D /* FISDogSpec.m */,
+				319BA7C719DEFFC20031C31D /* FISDogSpec.m */,
+				319BA7C819DEFFC20031C31D /* FISPetSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -332,6 +338,8 @@
 			files = (
 				319BA7C619DED9240031C31D /* FISDogSpec.m in Sources */,
 				319BA7C419DED91A0031C31D /* FISPetSpec.m in Sources */,
+				319BA7C919DEFFC20031C31D /* FISDogSpec.m in Sources */,
+				319BA7CA19DEFFC20031C31D /* FISPetSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

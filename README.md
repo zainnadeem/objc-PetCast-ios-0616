@@ -4,7 +4,7 @@
 
 1. Create a class called `FISPet`. `FISPet` has a method called `makeASound` that returns an `NSString` that reads "Pet me!" It also has a method called `eatSomething` that returns an `NSString` that reads "Nom nom nom."
 
-2. Create a second class called `FISDog`. `FISDog` should be a subclass of `FISPet`. The `FISDog` class should override `makeASound` to return "Woof." Also, `FISDog`s are able to `assaultTheMailman`. This method returns an `NSString` that reads "I got the mail! I got the mail!"
+2. Create a second class called `FISDog`. `FISDog` should be a subclass of `FISPet`. The `FISDog` class should override `makeASound` to return "Woof!" Also, `FISDog`s are able to `assaultTheMailman`. This method returns an `NSString` that reads "I got the mail! I got the mail!"
 
 3. In your FISAppDelegate `application:didFinishLaunchingWithOptions:`, create an instance of `FISDog`. Then...
     * Confirm that it barks and can assault the mailman!

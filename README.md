@@ -24,4 +24,4 @@ FISCar *newCar = [[FISPorsche alloc] init];
 
 So, what is happening above? First, we have intialized a `FISPorsche`, but it has been assigned to a variable of type `FISCar`. Then when it is time to set the isTurboCharged property, we have re-cast `newCar` to its original `FISPorsche` type, so the compiler will let us access its `isTurboCharged` property. Note the extra set of parentheses before `.isTurboCharged`.
 
-<a href='https://learn.co/lessons/objc-PetCast' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-PetCast' title='PetCast'>PetCast</a> on Learn.co and start learning to code for free.</p>
